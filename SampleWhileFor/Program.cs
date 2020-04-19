@@ -18,13 +18,13 @@ namespace SampleWhileFor
                 if ((i%3)==0)
                 {
                     aa.Append(i);
-                    aa.Append(",");
+                    aa.Append("　");
                     i++;
                 }
                 else
                 {
                     i++;
-                    continue;
+                    continue;//跳過當次迴圈未完成的程式,進下個迴圈
                 }
                
             }
