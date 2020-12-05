@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWhile", "SampleWhileF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleCaseWhen", "SampleCaseWhen\SampleCaseWhen.csproj", "{969E82F4-21C9-4314-92DD-3D1FE143D6A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleThisFunction", "..\ConsoleTEST\ConsoleTEST\ConsoleThisFunction.csproj", "{72FFE378-07A0-44DD-A624-33A5EFF99806}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleThisFunction", "ConsoleThisFunction\ConsoleThisFunction\ConsoleThisFunction\ConsoleThisFunction.csproj", "{77A384B1-FEED-4B7A-87D0-AC7438CD69B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{969E82F4-21C9-4314-92DD-3D1FE143D6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{969E82F4-21C9-4314-92DD-3D1FE143D6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{969E82F4-21C9-4314-92DD-3D1FE143D6A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{72FFE378-07A0-44DD-A624-33A5EFF99806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72FFE378-07A0-44DD-A624-33A5EFF99806}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72FFE378-07A0-44DD-A624-33A5EFF99806}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72FFE378-07A0-44DD-A624-33A5EFF99806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A384B1-FEED-4B7A-87D0-AC7438CD69B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A384B1-FEED-4B7A-87D0-AC7438CD69B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A384B1-FEED-4B7A-87D0-AC7438CD69B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A384B1-FEED-4B7A-87D0-AC7438CD69B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
