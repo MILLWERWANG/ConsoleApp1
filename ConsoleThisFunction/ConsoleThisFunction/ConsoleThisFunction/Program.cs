@@ -1,11 +1,13 @@
 ﻿using System;
 //此練習為自建函數自己叫用本身函數的做法，使用到多載的寫法及this關鍵字;
+//當一個類別(class)中存在多個建置函數時，可能會用出現建置函數之間互相呼叫的情況，可以this關鍵字呼叫其他建置函數。
 //關鍵字guid表示在system的NameSpace中，全域唯一識別項Object
+//關鍵字this為class自帶方法，指該class類別本身範圍
 //建構子用法
 namespace ConsoleThisFunction
 {
     class program
-    {
+    {　
         public class Production //建立類別
         {
             public Guid ProductID { get; set; } //建立屬性
@@ -19,7 +21,7 @@ namespace ConsoleThisFunction
                  // 2.當new Class時會自動產生無輸入參數的建構子 
                 //3.沒有回傳值及型態 
                 //4.一旦有設計輸入參數的建構子，預設建構子會失效。
-            public Production(Guid pid, string pname, DateTime pdate, decimal price) //建構子
+            public Production(Guid pid, string pname, DateTime pdate, decimal price) //建構子 //建置函數
             {
                 ProductID = pid;
                 ProductName = pname;
@@ -50,7 +52,7 @@ namespace ConsoleThisFunction
 
             Production p4 = new Production("桌機", new DateTime(2020, 12, 12), 10000);//僅傳日期
             Console.WriteLine($"產品編號:{ p4.ProductID}\n 產品名稱:{p4.ProductName}\n 生產日期:{ p4.ProductDate}\n 價格:{p4.ProductPrice}");
-
+            
         }
     }
 }
