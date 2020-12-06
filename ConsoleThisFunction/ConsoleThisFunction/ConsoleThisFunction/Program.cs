@@ -3,7 +3,7 @@
 //當一個類別(class)中存在多個建置函數時，可能會用出現建置函數之間互相呼叫的情況，可以this關鍵字呼叫其他建置函數。
 //關鍵字guid表示在system的NameSpace中，全域唯一識別項Object
 //關鍵字this為class自帶方法，指該class類別本身範圍
-//建構子用法 
+//建構子用法  
 namespace ConsoleThisFunction
 {
     class program
