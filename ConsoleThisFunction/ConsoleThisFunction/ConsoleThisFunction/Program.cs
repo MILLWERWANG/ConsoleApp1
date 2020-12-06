@@ -1,6 +1,7 @@
 ﻿using System;
-//此練習為自建函數自己叫用的做法，使用到多載的寫法及this關鍵字;
+//此練習為自建函數自己叫用本身函數的做法，使用到多載的寫法及this關鍵字;
 //關鍵字guid表示在system的NameSpace中，全域唯一識別項Object
+//建構子用法
 namespace ConsoleThisFunction
 {
     class program
@@ -11,7 +12,14 @@ namespace ConsoleThisFunction
             public string ProductName { get; set; }//建立屬性
             public DateTime ProductDate { get; set; }//建立屬性
             public decimal ProductPrice { get; set; }//建立屬性
-            public Production(Guid pid, string pname, DateTime pdate, decimal price) //實例化Production類別
+                                                    
+            //以下實例化Production類別(建構子)
+            //建構子特色:
+                //1.建構子Name與Class Name相同 
+                 // 2.當new Class時會自動產生無輸入參數的建構子 
+                //3.沒有回傳值及型態 
+                //4.一旦有設計輸入參數的建構子，預設建構子會失效。
+            public Production(Guid pid, string pname, DateTime pdate, decimal price) //建構子
             {
                 ProductID = pid;
                 ProductName = pname;
